@@ -1,8 +1,9 @@
 -- Can I see a list of all teams by year and number of wins,
 -- starting with the fewest wins?
-
 -- Expected result: 2955 rows, ending with
 --
+SELECT year, name, wins FROM teams ORDER BY wins ASC;
+
 -- | 2018 | Boston Red Sox                    | 108  |
 -- | 1961 | New York Yankees                  | 109  |
 -- | 1969 | Baltimore Orioles                 | 109  |
